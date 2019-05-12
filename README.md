@@ -1,6 +1,8 @@
 Configuration Is Code Blog
 ==========================
 
+Copyright 2018-2019 by Curt J. Sampson. All rights reserved.
+
 This blog was quickly thrown together with [Metalsmith], using the
 [Jade] template engine and [Bootstrap 4].
 

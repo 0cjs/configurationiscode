@@ -1,0 +1,19 @@
+#   This file determines where we get dependencies.
+#   You still need to add dependencies to the `.cabal` file.
+#
+#   Documentation for this file is found at:
+#       https://docs.haskellstack.org/en/stable/yaml_configuration/
+#   Also see the Git history or run `stack new myproject` to see a
+#   sample file with lots of descriptive comments.
+
+
+#   Most packages come from the following Stack snapshot.
+#   We use a slightly older snapshot because Hakyll is not in the
+#   latest (lts-13) snapshot.
+resolver: lts-12.26
+
+#   Paths to all packages (with a .cabal file) in this repo.
+packages: [.]
+
+#   Extra dependencies not in the resolver above.
+extra-deps: []
